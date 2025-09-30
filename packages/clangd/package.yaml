@@ -1,0 +1,26 @@
+---
+id: clangd
+name: clangd
+description: |
+  clangd understands your C++ code and adds smart features to your editor: code completion, compile errors,
+  go-to-definition and more.
+homepage: https://clangd.llvm.org
+licenses:
+  - Apache-2.0
+languages:
+  - C
+  - C++
+  - Objective-C
+  - Objective-C++
+categories:
+  - LSP
+
+source:
+  id: pkg:github/clangd/clangd@21.1.0
+  asset:
+    - target: darwin
+      file: clangd-mac-{{version}}.zip
+      bin: clangd_{{version}}/bin/clangd
+
+bin:
+  clangd: "{{source.asset.bin}}"

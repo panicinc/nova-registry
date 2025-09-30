@@ -1,0 +1,18 @@
+---
+id: basedpyright
+name: Basedpyright
+description: Fork of the Pyright static type checker for Python, with extra Pylance features.
+homepage: https://docs.basedpyright.com
+licenses:
+  - MIT
+languages:
+  - Python
+categories:
+  - LSP
+
+source:
+  id: pkg:pypi/basedpyright@1.31.5
+
+bin:
+  basedpyright: pypi:basedpyright
+  basedpyright-langserver: pypi:basedpyright-langserver

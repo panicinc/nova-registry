@@ -1,0 +1,18 @@
+---
+id: pyright
+name: Pyright
+description: A static type checker for Python.
+homepage: https://github.com/microsoft/pyright
+licenses:
+  - MIT
+languages:
+  - Python
+categories:
+  - LSP
+
+source:
+  id: pkg:npm/pyright@1.1.405
+
+bin:
+  pyright: npm:pyright
+  pyright-langserver: npm:pyright-langserver

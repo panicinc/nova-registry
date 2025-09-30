@@ -1,0 +1,17 @@
+---
+id: intelephense
+name: Intelephense
+description: A high performance PHP language server.
+homepage: https://intelephense.com
+licenses:
+  - MIT
+languages:
+  - PHP
+categories:
+  - LSP
+
+source:
+  id: pkg:npm/intelephense@1.14.4
+
+bin:
+  intelephense: npm:intelephense

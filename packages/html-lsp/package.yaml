@@ -1,0 +1,17 @@
+---
+id: html-lsp
+name: HTML Language Server
+description: A language server implementation for HTML.
+homepage: https://github.com/microsoft/vscode-html-languageservice
+licenses:
+  - MIT
+languages:
+  - HTML
+categories:
+  - LSP
+
+source:
+  id: pkg:npm/vscode-langservers-extracted@4.10.0
+
+bin:
+  vscode-html-language-server: npm:vscode-html-language-server
