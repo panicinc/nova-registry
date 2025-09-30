@@ -1,0 +1,13 @@
+---
+id: phpactor
+name: Phpactor
+languages:
+  - php
+package: phpactor
+command:
+  - phpactor
+  - language-server
+root_markers:
+  - composer.json
+  - .phpactor.json
+  - .phpactor.yml

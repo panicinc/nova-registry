@@ -5,8 +5,6 @@ description: An opinionated language server for Ruby.
 homepage: https://github.com/Shopify/ruby-lsp
 licenses:
   - MIT
-languages:
-  - Ruby
 categories:
   - LSP
 

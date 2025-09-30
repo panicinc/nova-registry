@@ -1,0 +1,11 @@
+---
+id: rubocop
+name: Rubocop
+languages:
+  - ruby
+package: rubocop
+command:
+  - rubocop
+  - --lsp
+root_markers:
+  - Gemfile

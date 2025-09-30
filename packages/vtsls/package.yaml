@@ -5,9 +5,6 @@ description: A wrapper around the TypeScript service from Microsoft.
 homepage: https://github.com/yioneko/vtsls
 licenses:
   - MIT
-languages:
-  - JavaScript
-  - TypeScript
 categories:
   - LSP
 

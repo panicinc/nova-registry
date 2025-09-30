@@ -4,8 +4,6 @@ description: Markdown LSP server providing completion, cross-references, diagnos
 homepage: https://github.com/artempyanykh/marksman
 licenses:
   - MIT
-languages:
-  - Markdown
 categories:
   - LSP
 

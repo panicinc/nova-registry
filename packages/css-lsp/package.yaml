@@ -5,10 +5,6 @@ description: A language server implementation for CSS, SCSS & LESS.
 homepage: https://github.com/microsoft/vscode-css-languageservice
 licenses:
   - MIT
-languages:
-  - CSS
-  - SCSS
-  - LESS
 categories:
   - LSP
 

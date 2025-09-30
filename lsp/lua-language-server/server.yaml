@@ -1,0 +1,16 @@
+---
+id: lua-language-server
+name: Lua Language Server
+languages:
+  - lua
+package: lua-language-server
+command:
+  - lua-language-server
+root_markers:
+  - .luarc.json
+  - .luarc.jsonc
+  - .luacheckrc
+  - .stylua.toml
+  - stylua.toml
+  - selene.toml
+  - selene.yml

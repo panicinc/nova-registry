@@ -1,0 +1,16 @@
+---
+id: pyright
+name: Pyright
+languages:
+  - python
+package: pyright
+command:
+  - pyright-langserver
+  - --stdio
+root_markers:
+  - pyproject.toml
+  - setup.py
+  - setup.cfg
+  - requirements.txt
+  - Pipfile
+  - pyrightconfig.json

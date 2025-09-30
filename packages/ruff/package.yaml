@@ -5,8 +5,6 @@ description: An extremely fast Python linter and code formatter, written in Rust
 homepage: https://github.com/astral-sh/ruff
 licenses:
   - MIT
-languages:
-  - Python
 categories:
   - Linter
   - Formatter

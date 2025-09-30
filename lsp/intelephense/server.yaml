@@ -1,0 +1,11 @@
+---
+id: intelephense
+name: Intelephense
+languages:
+  - php
+package: intelephense
+command:
+  - intelephense
+  - --stdio
+root_markers:
+  - composer.json

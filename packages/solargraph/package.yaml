@@ -5,8 +5,6 @@ description: A Ruby language server.
 homepage: https://solargraph.org
 licenses:
   - MIT
-languages:
-  - Ruby
 categories:
   - LSP
 

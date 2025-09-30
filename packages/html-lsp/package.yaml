@@ -5,8 +5,6 @@ description: A language server implementation for HTML.
 homepage: https://github.com/microsoft/vscode-html-languageservice
 licenses:
   - MIT
-languages:
-  - HTML
 categories:
   - LSP
 

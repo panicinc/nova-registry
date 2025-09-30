@@ -5,9 +5,6 @@ description: A TypeScript & JavaScript language server.
 homepage: https://github.com/typescript-language-server/typescript-language-server
 licenses:
   - MIT
-languages:
-  - TypeScript
-  - JavaScript
 categories:
   - LSP
 

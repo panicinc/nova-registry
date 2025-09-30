@@ -5,8 +5,6 @@ description: A PHP Language Server with more features than you can shake a stick
 homepage: https://phpactor.readthedocs.io
 licenses:
   - MIT
-languages:
-  - PHP
 categories:
   - LSP
 

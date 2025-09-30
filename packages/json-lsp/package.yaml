@@ -5,8 +5,6 @@ description: A language server implementation for JSON.
 homepage: https://github.com/microsoft/vscode-json-languageservice
 licenses:
   - MIT
-languages:
-  - JSON
 categories:
   - LSP
 

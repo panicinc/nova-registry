@@ -7,11 +7,6 @@ description: |
 homepage: https://clangd.llvm.org
 licenses:
   - Apache-2.0
-languages:
-  - C
-  - C++
-  - Objective-C
-  - Objective-C++
 categories:
   - LSP
 

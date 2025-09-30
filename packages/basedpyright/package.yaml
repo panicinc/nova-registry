@@ -5,8 +5,6 @@ description: Fork of the Pyright static type checker for Python, with extra Pyla
 homepage: https://docs.basedpyright.com
 licenses:
   - MIT
-languages:
-  - Python
 categories:
   - LSP
 

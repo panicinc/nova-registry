@@ -5,8 +5,6 @@ description: A high performance PHP language server.
 homepage: https://intelephense.com
 licenses:
   - MIT
-languages:
-  - PHP
 categories:
   - LSP
 

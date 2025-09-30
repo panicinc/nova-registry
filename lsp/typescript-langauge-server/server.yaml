@@ -1,0 +1,15 @@
+---
+id: typescript-language-server
+name: TypeScript Language Server
+languages:
+  - javascript
+  - typescript
+  - tsx
+package: typescript-language-server
+command:
+  - typescript-language-server
+  - --stdio
+root_markers:
+  - tsconfig.json
+  - jsconfig.json
+  - package.json
