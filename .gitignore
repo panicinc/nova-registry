@@ -1,1 +1,4 @@
 .DS_Store
+/lsp.json
+/packages.json
+/registry.json

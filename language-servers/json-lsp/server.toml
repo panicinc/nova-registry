@@ -1,0 +1,13 @@
+id = "json-lsp"
+name = "JSON Language Server"
+languages = [
+  "json",
+]
+package = "json-lsp"
+command = [
+  "vscode-json-language-server",
+  "--stdio",
+]
+root_markers = [
+  "package.json",
+]

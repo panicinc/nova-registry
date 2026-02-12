@@ -1,0 +1,13 @@
+id = "typescript-language-server"
+name = "TypeScript Language Server"
+description = "A TypeScript & JavaScript language server."
+homepage = "https://github.com/typescript-language-server/typescript-language-server"
+licenses = ["MIT"]
+categories = ["LSP"]
+
+[source]
+id = "pkg:npm/typescript-language-server@5.0.0"
+extra_packages = ["typescript"]
+
+[bin]
+typescript-language-server = "npm:typescript-language-server"

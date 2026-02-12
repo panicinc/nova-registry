@@ -1,0 +1,13 @@
+id = "solargraph"
+name = "Solargraph"
+languages = [
+  "ruby",
+]
+package = "solargraph"
+command = [
+  "solargraph",
+  "lsp",
+]
+root_markers = [
+  "Gemfile",
+]

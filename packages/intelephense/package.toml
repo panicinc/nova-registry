@@ -1,0 +1,12 @@
+id = "intelephense"
+name = "intelephense"
+description = "A high performance PHP language server."
+homepage = "https://intelephense.com"
+licenses = ["MIT"]
+categories = ["LSP"]
+
+[source]
+id = "pkg:npm/intelephense@1.14.4"
+
+[bin]
+intelephense = "npm:intelephense"
