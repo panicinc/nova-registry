@@ -4,7 +4,7 @@
 ### Issue ticket number and link
 <!-- Leave empty if not available -->
 
-### Evidence on requirement fulfillment (new packages only)
+### Evidence on requirement fulfillment (new tools only)
 <!-- A link to evidence that the requirement for the package are fulfilled. -->
 <!-- see https://github.com/panicinc/nova-package-registry/blob/main/CONTRIBUTING.md#requirements -->
 

@@ -1,8 +1,8 @@
-Package registry for [Nova](https://nova.app).
+Tool registry for [Nova](https://nova.app).
 
 Refer to [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines.
 
-Compiled registry contents are available via [releases](https://github.com/panicinc/nova-package-registry/releases).
+Compiled registry contents are available via [releases](https://github.com/panicinc/nova-registry/releases).
 
 ## Attribution
 

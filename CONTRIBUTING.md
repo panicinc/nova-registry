@@ -14,7 +14,7 @@
 
 # Requirements
 
-At least one of the following conditions MUST be fulfilled for new packages to be added to the registry.
+At least one of the following conditions MUST be fulfilled for new tools to be added to the registry.
 
 1. At least 100 stars on GitHub.
 1. Have a credible authority vouch for it, e.g., the tool is officially recommended by maintainers of the language.
