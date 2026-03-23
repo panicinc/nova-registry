@@ -13,12 +13,12 @@ if __name__ == '__main__':
 
     basedir = Path.cwd()
 
-    for child in basedir.joinpath("packages").iterdir():
+    for child in basedir.joinpath("Definitions/Packages").iterdir():
         if child.suffix == ".toml":
             with child.open(mode='rb') as f:
                 root['packages'].append(tomllib.load(f))
 
-    for child in basedir.joinpath("language-servers").iterdir():
+    for child in basedir.joinpath("Definitions/LanguageServers").iterdir():
         if child.suffix == ".toml":
             with child.open(mode='rb') as f:
                 root['language_servers'].append(tomllib.load(f))
