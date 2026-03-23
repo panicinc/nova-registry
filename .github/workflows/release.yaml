@@ -13,4 +13,4 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: panicinc/nova-package-actions/registry-release@v1
+      - uses: panicinc/nova-actions/registry-release@v1

@@ -7,7 +7,6 @@ languages = [
   "objc",
   "objcpp",
 ]
-package = "sourcekit-lsp"
 command = [
   "sourcekit-lsp",
 ]

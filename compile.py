@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+import datetime
+import json
+from pathlib import Path
+import tomllib
+
+if __name__ == '__main__':
+    root = {
+        'date': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        'packages': [],
+        'language_servers': [],
+    }
+
+    basedir = Path.cwd()
+
+    for child in basedir.joinpath("packages").iterdir():
+        if child.suffix == ".toml":
+            with child.open(mode='rb') as f:
+                root['packages'].append(tomllib.load(f))
+
+    for child in basedir.joinpath("language-servers").iterdir():
+        if child.suffix == ".toml":
+            with child.open(mode='rb') as f:
+                root['language_servers'].append(tomllib.load(f))
+
+    with basedir.joinpath("registry.json").open(mode='w') as f:
+        json.dump(root, f)

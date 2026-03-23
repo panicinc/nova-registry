@@ -1,6 +1,6 @@
 id = "lua-language-server"
 name = "Lua Language Server"
-description = A language server that offers Lua language support - programmed in Lua."
+description = "A language server that offers Lua language support - programmed in Lua."
 homepage = "https://github.com/LuaLS/lua-language-server"
 licenses = ["MIT"]
 categories = ["LSP"]

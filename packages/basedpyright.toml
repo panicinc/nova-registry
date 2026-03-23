@@ -1,6 +1,6 @@
 id = "basedpyright"
 name = "Basedpyright"
-description = Fork of the Pyright static type checker for Python, with extra Pylance features."
+description = "Fork of the Pyright static type checker for Python, with extra Pylance features."
 homepage = "https://docs.basedpyright.com"
 licenses = ["MIT"]
 categories = ["LSP"]
