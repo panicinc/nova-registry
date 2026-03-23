@@ -1,0 +1,20 @@
+id = "sourcekit-lsp"
+name = "SourceKit-LSP"
+languages = [
+  "swift",
+  "c",
+  "cpp",
+  "objc",
+  "objcpp",
+]
+command = [
+  "sourcekit-lsp",
+]
+root_markers = [
+  "buildServer.json",
+  "compile_commands.json",
+  "compile_flags.txt",
+  "Package.swift",
+  "*.xcodeproj",
+  "*.xcworkspace",
+]

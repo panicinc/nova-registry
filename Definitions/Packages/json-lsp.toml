@@ -1,0 +1,12 @@
+id = "json-lsp"
+name = "JSON Language Server"
+description = "A language server implementation for JSON."
+homepage = "https://github.com/microsoft/vscode-json-languageservice"
+licenses = ["MIT"]
+categories = ["LSP"]
+
+[source]
+id = "pkg:npm/vscode-langservers-extracted@4.10.0"
+
+[bin]
+vscode-json-language-server = "npm:vscode-json-language-server"

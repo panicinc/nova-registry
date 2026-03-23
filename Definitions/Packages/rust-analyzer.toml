@@ -1,0 +1,15 @@
+id = "rust-analyzer"
+name = "rust-analyzer"
+description = "An implementation of the Language Server Protocol for the Rust programming language."
+homepage = "https://github.com/rust-lang/rust-analyzer"
+licenses = ["Apache-2.0", "MIT"]
+categories = ["LSP"]
+
+[source]
+# renovate:versioning=loose
+id = "pkg:github/rust-lang/rust-analyzer@2025-08-25"
+
+[[source.asset]]
+
+[bin]
+ty = "pypi:ty"

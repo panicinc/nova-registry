@@ -1,0 +1,12 @@
+id = "ruby-lsp"
+name = "Ruby LSP"
+languages = [
+  "ruby",
+]
+package = "ruby-lsp"
+command = [
+  "ruby-lsp",
+]
+root_markers = [
+  "Gemfile",
+]
