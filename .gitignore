@@ -1,5 +1,3 @@
 .DS_Store
-/lsp.json
-/packages.json
 /registry.json
-/registry.zip
+/registry.json.zip
