@@ -1,0 +1,6 @@
+id = "docker-language-server"
+name = "Docker Language Server"
+languages = [ "docker" ]
+package = "docker-language-server"
+command = [ "docker-language-server", "--stdio" ]
+root_markers = [ "Dockerfile" ]

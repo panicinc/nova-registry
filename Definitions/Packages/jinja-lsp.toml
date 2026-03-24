@@ -1,0 +1,12 @@
+id = "jinja-lsp"
+name = "jinja-lsp"
+description = "Language Server for jinja."
+homepage = "https://github.com/uros-5/jinja-lsp"
+licenses = ["MIT"]
+categories = ["LSP"]
+
+[source]
+id = "pkg:cargo/jinja-lsp@0.1.91"
+
+[bin]
+jinja-lsp = "cargo:jinja-lsp"
