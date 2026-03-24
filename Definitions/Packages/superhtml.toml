@@ -19,4 +19,4 @@ file = "x86_64-macos.zip"
 bin = "superhtml"
 
 [bin]
-superhtm = "{{source.asset.bin}}"
+superhtml = "{{source.asset.bin}}"
