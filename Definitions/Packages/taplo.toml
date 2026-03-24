@@ -1,0 +1,22 @@
+id = "taplo"
+name = "Taplo"
+description = "A versatile, feature-rich TOML toolkit."
+homepage = "https://taplo.tamasfe.dev/"
+licenses = ["MIT"]
+categories = ["LSP", "Formatter"]
+
+[source]
+id = "pkg:github/tamasfe/taplo@0.10.0"
+
+[[source.asset]]
+target = "darwin_arm64"
+file = "taplo-darwin-aarch64.gz"
+bin = "taplo-darwin-aarch64"
+
+[[source.asset]]
+target = "darwin_x64"
+file = "taplo-darwin-x86_64.gz"
+bin = "taplo-darwin-x86_64"
+
+[bin]
+taplo = "{{source.asset.bin}}"

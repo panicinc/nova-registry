@@ -1,0 +1,12 @@
+id = "yaml-language-server"
+name = "YAML Language Server"
+description = "Language Server for YAML Files."
+homepage = "https://github.com/redhat-developer/yaml-language-server"
+licenses = ["MIT"]
+categories = ["LSP"]
+
+[source]
+id = "pkg:npm/yaml-language-server@1.21.0"
+
+[bin]
+yaml-language-server = "npm:yaml-language-server"

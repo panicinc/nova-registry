@@ -1,0 +1,15 @@
+id = "taplo"
+name = "Taplo"
+languages = [
+  "toml",
+]
+package = "taplo"
+command = [
+  "taplo",
+  "lsp",
+  "stdio",
+]
+root_markers = [
+  ".taplo.toml",
+  "taplo.toml",
+]

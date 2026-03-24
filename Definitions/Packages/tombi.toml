@@ -1,0 +1,12 @@
+id = "tombi"
+name = "Tombi"
+description = "TOML Formatter / Linter / Language Server"
+homepage = "https://github.com/tombi-toml/tombi"
+licenses = ["MIT"]
+categories = ["LSP"]
+
+[source]
+id = "pkg:pypi/tombi@0.9.9"
+
+[bin]
+tombi = "pypi:tombi"
