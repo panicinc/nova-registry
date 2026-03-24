@@ -7,7 +7,7 @@ categories = ["LSP"]
 
 [source]
 # renovate:versioning=loose
-id = "pkg:github/artempyanykh/marksman@2024-12-18"
+id = "pkg:github/artempyanykh/marksman@2026-02-08"
 
 [[source.asset]]
 target = "darwin"

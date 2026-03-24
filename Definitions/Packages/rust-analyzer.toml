@@ -7,9 +7,17 @@ categories = ["LSP"]
 
 [source]
 # renovate:versioning=loose
-id = "pkg:github/rust-lang/rust-analyzer@2025-08-25"
+id = "pkg:github/rust-lang/rust-analyzer@2026-03-23"
 
 [[source.asset]]
+target = "darwin_arm64"
+file = "rust-analyzer-aarch64-apple-darwin.gz"
+bin = "rust-analyzer-aarch64-apple-darwin"
+
+[[source.asset]]
+target = "darwin_x64"
+file = "rust-analyzer-x86_64-apple-darwin.gz"
+bin = "rust-analyzer-x86_64-apple-darwin"
 
 [bin]
-ty = "pypi:ty"
+rust-analyzer = "{{source.asset.bin}}"

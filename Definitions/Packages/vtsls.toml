@@ -6,7 +6,7 @@ licenses = ["MIT"]
 categories = ["LSP"]
 
 [source]
-id = "pkg:npm/%40vtsls/language-server@0.2.9"
+id = "pkg:npm/%40vtsls/language-server@0.3.0"
 
 [bin]
 vtsls = "npm:vtsls"

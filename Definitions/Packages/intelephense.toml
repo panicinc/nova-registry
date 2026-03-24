@@ -6,7 +6,7 @@ licenses = ["MIT"]
 categories = ["LSP"]
 
 [source]
-id = "pkg:npm/intelephense@1.14.4"
+id = "pkg:npm/intelephense@1.16.5"
 
 [bin]
 intelephense = "npm:intelephense"

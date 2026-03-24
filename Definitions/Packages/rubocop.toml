@@ -6,7 +6,7 @@ licenses = ["MIT"]
 categories = ["Formatter", "Linter", "LSP"]
 
 [source]
-id = "pkg:gem/rubocop@1.79.1"
+id = "pkg:gem/rubocop@1.86.0"
 
 [bin]
 rubocop = "gem:rubocop"

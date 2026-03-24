@@ -6,7 +6,7 @@ licenses = ["MIT"]
 categories = ["LSP"]
 
 [source]
-id = "pkg:gem/solargraph@0.56.2"
+id = "pkg:gem/solargraph@0.58.3"
 
 [bin]
 solargraph = "gem:solargraph"

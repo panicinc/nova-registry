@@ -6,7 +6,7 @@ licenses = ["MIT"]
 categories = ["LSP"]
 
 [source]
-id = "pkg:pypi/basedpyright@1.31.5"
+id = "pkg:pypi/basedpyright@1.38.3"
 
 [bin]
 basedpyright = "pypi:basedpyright"

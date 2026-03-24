@@ -6,7 +6,7 @@ licenses = ["MIT"]
 categories = ["LSP"]
 
 [source]
-id = "pkg:github/LuaLS/lua-language-server@3.15.0"
+id = "pkg:github/LuaLS/lua-language-server@3.17.1"
 
 [[source.asset]]
 target = "darwin_arm64"
