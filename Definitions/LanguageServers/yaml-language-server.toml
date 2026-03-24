@@ -1,12 +1,6 @@
 id = "yaml-language-server"
 name = "YAML Language Server"
-languages = [
-  "yaml",
-]
+languages = [ "yaml" ]
 package = "yaml-language-server"
-command = [
-  "yaml-language-server",
-  "--stdio",
-]
-root_markers = [
-]
+command = [ "yaml-language-server", "--stdio" ]
+root_markers = []

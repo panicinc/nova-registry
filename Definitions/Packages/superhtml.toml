@@ -1,0 +1,22 @@
+id = "superhtml"
+name = "SuperHTML"
+description = "HTML Validator, Formatter, LSP, and Templating Language Library"
+homepage = "https://github.com/kristoff-it/superhtml"
+licenses = ["MIT"]
+categories = ["LSP"]
+
+[source]
+id = "pkg:github/kristoff-it/superhtml@v0.6.2"
+
+[[source.asset]]
+target = "darwin_arm64"
+file = "aarch64-macos.zip"
+bin = "superhtml"
+
+[[source.asset]]
+target = "darwin_x64"
+file = "x86_64-macos.zip"
+bin = "superhtml"
+
+[bin]
+superhtm = "{{source.asset.bin}}"

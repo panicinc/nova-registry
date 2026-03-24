@@ -1,13 +1,8 @@
 id = "phpactor"
 name = "phpactor"
-languages = [
-  "php",
-]
+languages = [ "php" ]
 package = "phpactor"
-command = [
-  "phpactor",
-  "language-server",
-]
+command = [ "phpactor", "language-server" ]
 root_markers = [
   "composer.json",
   ".phpactor.json",

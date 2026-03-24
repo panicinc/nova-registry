@@ -1,12 +1,6 @@
 id = "rust-analyzer"
 name = "rust-analyzer"
-languages = [
-  "rust",
-]
+languages = [ "rust" ]
 package = "rust-analyzer"
-command = [
-  "rust-analyzer",
-]
-root_markers = [
-  "Cargo.toml",
-]
+command = [ "rust-analyzer" ]
+root_markers = [ "Cargo.toml" ]

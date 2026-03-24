@@ -1,12 +1,8 @@
 id = "lua-language-server"
 name = "Lua Language Server"
-languages = [
-  "lua",
-]
+languages = [ "lua" ]
 package = "lua-language-server"
-command = [
-  "lua-language-server",
-]
+command = [ "lua-language-server" ]
 root_markers = [
   ".luarc.json",
   ".luarc.jsonc",

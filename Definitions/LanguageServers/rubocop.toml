@@ -1,13 +1,6 @@
 id = "rubocop"
 name = "Rubocop"
-languages = [
-  "ruby",
-]
+languages = [ "ruby" ]
 package = "rubocop"
-command = [
-  "rubocop",
-  "--lsp",
-]
-root_markers = [
-  "Gemfile",
-]
+command = [ "rubocop", "--lsp" ]
+root_markers = [ "Gemfile" ]

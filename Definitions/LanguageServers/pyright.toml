@@ -1,13 +1,8 @@
 id = "pyright"
 name = "Pyright"
-languages = [
-  "python",
-]
+languages = [ "python" ]
 package = "pyright"
-command = [
-  "pyright-langserver",
-  "--stdio",
-]
+command = [ "pyright-langserver", "--stdio" ]
 root_markers = [
   "pyproject.toml",
   "setup.py",

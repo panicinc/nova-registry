@@ -6,10 +6,7 @@ languages = [
   "tsx",
 ]
 package = "vtsls"
-command = [
-  "vtsls",
-  "--stdio",
-]
+command = [ "vtsls", "--stdio" ]
 root_markers = [
   "jsconfig.json",
   "tsconfig.json",

@@ -1,13 +1,8 @@
 id = "ruff"
 name = "Ruff"
-languages = [
-  "python",
-]
+languages = [ "python" ]
 package = "ruff"
-command = [
-  "ruff",
-  "server",
-]
+command = [ "ruff", "server" ]
 root_markers = [
   "pyproject.toml",
   "ruff.toml",

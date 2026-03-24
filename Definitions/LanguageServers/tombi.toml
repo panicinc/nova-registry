@@ -1,13 +1,8 @@
 id = "tombi"
 name = "Tombi"
-languages = [
-  "toml",
-]
+languages = [ "toml" ]
 package = "tombi"
-command = [
-  "tombi",
-  "lsp",
-]
+command = [ "tombi", "lsp" ]
 root_markers = [
   "pyproject.toml",
   "tombi.toml",

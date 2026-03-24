@@ -1,0 +1,6 @@
+id = "superhtml"
+name = "SuperHTML"
+languages = [ "html", "superhtml" ]
+package = "superhtml"
+command = [ "superhtml", "lsp" ]
+root_markers = []

@@ -7,9 +7,7 @@ languages = [
   "objcpp",
 ]
 package = "clangd"
-command = [
-  "clangd",
-]
+command = [ "clangd" ]
 root_markers = [
   ".clangd",
   ".clang-tidy",

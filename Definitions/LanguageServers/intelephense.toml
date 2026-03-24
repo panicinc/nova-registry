@@ -1,13 +1,6 @@
 id = "intelephense"
 name = "Intelephense"
-languages = [
-  "php",
-]
+languages = [ "php" ]
 package = "intelephense"
-command = [
-  "intelephense",
-  "--stdio",
-]
-root_markers = [
-  "composer.json",
-]
+command = [ "intelephense", "--stdio" ]
+root_markers = [ "composer.json" ]

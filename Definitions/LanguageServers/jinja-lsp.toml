@@ -1,9 +1,6 @@
 id = "jinja-lsp"
 name = "jinja-lsp"
-languages = [
-  "jinja",
-  "html+jinja"
-]
+languages = [ "jinja", "html+jinja" ]
 package = "jinja-lsp"
 command = [ "jinja-lsp" ]
 root_markers = []

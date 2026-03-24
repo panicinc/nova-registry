@@ -7,9 +7,7 @@ languages = [
   "objc",
   "objcpp",
 ]
-command = [
-  "sourcekit-lsp",
-]
+command = [ "sourcekit-lsp" ]
 root_markers = [
   "buildServer.json",
   "compile_commands.json",

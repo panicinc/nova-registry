@@ -1,11 +1,6 @@
 id = "csharp-language-server"
 name = "csharp-ls"
-languages = [
-  "csharp",
-]
+languages = [ "csharp" ]
 package = "csharp-language-server"
-command = [
-  "csharp-ls",
-]
-root_markers = [
-]
+command = [ "csharp-ls" ]
+root_markers = []

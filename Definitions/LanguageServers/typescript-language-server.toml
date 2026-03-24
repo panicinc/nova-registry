@@ -6,10 +6,7 @@ languages = [
   "tsx",
 ]
 package = "typescript-language-server"
-command = [
-  "typescript-language-server",
-  "--stdio",
-]
+command = [ "typescript-language-server", "--stdio" ]
 root_markers = [
   "jsconfig.json",
   "tsconfig.json",

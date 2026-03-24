@@ -1,13 +1,6 @@
 id = "marksman"
 name = "Marksman"
-languages = [
-  "markdown",
-]
+languages = [ "markdown" ]
 package = "marksman"
-command = [
-  "marksman",
-  "server",
-]
-root_markers = [
-  ".marksman.toml",
-]
+command = [ "marksman", "server" ]
+root_markers = [ ".marksman.toml" ]
