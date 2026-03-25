@@ -6,7 +6,7 @@ import tomllib
 
 if __name__ == '__main__':
     root = {
-        'date': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        'date': datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0).isoformat(),
         'packages': [],
         'language_servers': [],
     }
