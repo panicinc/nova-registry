@@ -6,7 +6,7 @@ licenses = ["MIT"]
 categories = ["Linter", "Formatter", "LSP"]
 
 [source]
-id = "pkg:pypi/ruff@0.15.7"
+id = "pkg:pypi/ruff@0.15.8"
 
 [bin]
 ty = "pypi:ruff"
