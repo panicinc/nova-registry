@@ -6,7 +6,7 @@ licenses = ["MIT"]
 categories = ["Runtime"]
 
 [source]
-id = "pkg:generic/nodejs/node@v25.8.1"
+id = "pkg:generic/nodejs/node@v25.8.2"
 
 [[source.download]]
 target = "darwin_arm64"
