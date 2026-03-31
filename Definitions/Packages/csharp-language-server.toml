@@ -1,7 +1,7 @@
 id = "csharp-language-server"
 name = "csharp-ls"
 description = "Roslyn-based LSP language server for C#."
-homepage = "https://docs.astral.sh/ty"
+homepage = "https://github.com/razzmatazz/csharp-language-server"
 licenses = ["MIT"]
 categories = ["LSP"]
 
