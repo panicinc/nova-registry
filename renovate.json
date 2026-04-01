@@ -14,7 +14,7 @@
             "fileMatch": "[\\w\\-]+\\.toml$",
             "matchStringsStrategy": "combination",
             "matchStrings": [
-                "\Aid\\s+=\\s+\"(?<depName>.+)\"",
+                "\\Aid\\s+=\\s+\"(?<depName>.+)\"",
                 "\nid\\s+=\\s+\"pkg:github\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)\"",
                 "# renovate:datasource=git-refs[\\s\\S]*pkg:github\\/(?<packageName>.+)@(?<currentDigest>[^\\s\\?#]+)",
                 "# renovate:.*versioning=(?<versioning>[^,\n]+)",
@@ -29,7 +29,7 @@
             "fileMatch": "[\\w\\-]+\\.toml$",
             "matchStringsStrategy": "combination",
             "matchStrings": [
-                "\Aid\\s+=\\s+\"(?<depName>.+)\"",
+                "\\Aid\\s+=\\s+\"(?<depName>.+)\"",
                 "\nid\\s+=\\s+\"pkg:cargo\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)\"",
                 "\\?.*repository_url=(?<githubRepo>https:\\/\\/github\\.com)\\/(?<packageName>[^\\s&]+)",
                 "# renovate:.*versioning=(?<versioning>[^,\n]+)"
@@ -41,7 +41,7 @@
             "fileMatch": "[\\w\\-]+\\.toml$",
             "matchStringsStrategy": "combination",
             "matchStrings": [
-                "\Aid\\s+=\\s+\"(?<depName>.+)\"",
+                "\\Aid\\s+=\\s+\"(?<depName>.+)\"",
                 "\nid\\s+=\\s+\"pkg:golang\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)\""
             ],
             "datasourceTemplate": "go"
@@ -50,7 +50,7 @@
             "fileMatch": "[\\w\\-]+\\.toml$",
             "matchStringsStrategy": "combination",
             "matchStrings": [
-                "\Aid\\s+=\\s+\"(?<depName>.+)\"",
+                "\\Aid\\s+=\\s+\"(?<depName>.+)\"",
                 "\nid\\s+=\\s+\"pkg:gem\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)\""
             ],
             "datasourceTemplate": "rubygems"
@@ -59,7 +59,7 @@
             "fileMatch": "[\\w\\-]+\\.toml$",
             "matchStringsStrategy": "combination",
             "matchStrings": [
-                "\Aid\\s+=\\s+\"(?<depName>.+)\"",
+                "\\Aid\\s+=\\s+\"(?<depName>.+)\"",
                 "\nid\\s+=\\s+\"pkg:composer\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)\""
             ],
             "datasourceTemplate": "packagist"
@@ -68,7 +68,7 @@
             "fileMatch": "[\\w\\-]+\\.toml$",
             "matchStringsStrategy": "combination",
             "matchStrings": [
-                "\Aid\\s+=\\s+\"(?<depName>.+)\"",
+                "\\Aid\\s+=\\s+\"(?<depName>.+)\"",
                 "\nid\\s+=\\s+\"pkg:(?<datasource>npm|pypi|nuget)\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)\""
             ],
             "datasourceTemplate": "{{datasource}}"
@@ -77,7 +77,7 @@
             "fileMatch": "[\\w\\-]+\\.toml$",
             "matchStringsStrategy": "combination",
             "matchStrings": [
-                "\Aid\\s+=\\s+\"(?<depName>.+)\"",
+                "\\Aid\\s+=\\s+\"(?<depName>.+)\"",
                 "\nid\\s+=\\s+\"pkg:generic\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)\"",
                 "# renovate:.*versioning=(?<versioning>[^,\n]+)",
                 "# renovate:.*datasource=(?<datasource>[^,\n]+)"
