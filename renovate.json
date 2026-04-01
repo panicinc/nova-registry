@@ -12,7 +12,7 @@
     "enabledManagers": ["regex"],
     "customManagers": [
         {
-            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\w\-]+\\.toml$/"],
+            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
@@ -27,7 +27,7 @@
             "currentValueTemplate": "{{#if (containsString datasource 'git-refs')}}{{else}}{{{decodeURIComponent currentValue}}}{{/if}}"
         },
         {
-            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\w\-]+\\.toml$/"],
+            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
@@ -39,7 +39,7 @@
             "versioningTemplate": "semver"
         },
         {
-            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\w\-]+\\.toml$/"],
+            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
@@ -48,7 +48,7 @@
             "datasourceTemplate": "go"
         },
         {
-            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\w\-]+\\.toml$/"],
+            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
@@ -57,7 +57,7 @@
             "datasourceTemplate": "rubygems"
         },
         {
-            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\w\-]+\\.toml$/"],
+            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
@@ -66,7 +66,7 @@
             "datasourceTemplate": "packagist"
         },
         {
-            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\w\-]+\\.toml$/"],
+            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
@@ -75,7 +75,7 @@
             "datasourceTemplate": "{{datasource}}"
         },
         {
-            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\w\-]+\\.toml$/"],
+            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
