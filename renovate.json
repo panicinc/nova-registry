@@ -11,7 +11,7 @@
     "enabledManagers": ["regex"],
     "regexManagers": [
         {
-            "fileMatch": "/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/",
+            "fileMatch": "[\\w\\-]+\\.toml$",
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
@@ -26,7 +26,7 @@
             "currentValueTemplate": "{{#if (containsString datasource 'git-refs')}}{{else}}{{{decodeURIComponent currentValue}}}{{/if}}"
         },
         {
-            "fileMatch": "/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/",
+            "fileMatch": "[\\w\\-]+\\.toml$",
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
@@ -38,7 +38,7 @@
             "versioningTemplate": "semver"
         },
         {
-            "fileMatch": "/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/",
+            "fileMatch": "[\\w\\-]+\\.toml$",
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
@@ -47,7 +47,7 @@
             "datasourceTemplate": "go"
         },
         {
-            "fileMatch": "/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/",
+            "fileMatch": "[\\w\\-]+\\.toml$",
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
@@ -56,7 +56,7 @@
             "datasourceTemplate": "rubygems"
         },
         {
-            "fileMatch": "/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/",
+            "fileMatch": "[\\w\\-]+\\.toml$",
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
@@ -65,7 +65,7 @@
             "datasourceTemplate": "packagist"
         },
         {
-            "fileMatch": "/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/",
+            "fileMatch": "[\\w\\-]+\\.toml$",
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
@@ -74,7 +74,7 @@
             "datasourceTemplate": "{{datasource}}"
         },
         {
-            "fileMatch": "/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/",
+            "fileMatch": "[\\w\\-]+\\.toml$",
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
