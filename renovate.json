@@ -9,10 +9,9 @@
     "branchConcurrentLimit": 0,
     "rebaseWhen": "conflicted",
     "enabledManagers": ["regex"],
-    "customManagers": [
+    "regexManagers": [
         {
-            "customType": "regex",
-            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
+            "fileMatch": "/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/",
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
@@ -27,8 +26,7 @@
             "currentValueTemplate": "{{#if (containsString datasource 'git-refs')}}{{else}}{{{decodeURIComponent currentValue}}}{{/if}}"
         },
         {
-            "customType": "regex",
-            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
+            "fileMatch": "/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/",
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
@@ -40,8 +38,7 @@
             "versioningTemplate": "semver"
         },
         {
-            "customType": "regex",
-            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
+            "fileMatch": "/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/",
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
@@ -50,8 +47,7 @@
             "datasourceTemplate": "go"
         },
         {
-            "customType": "regex",
-            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
+            "fileMatch": "/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/",
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
@@ -60,8 +56,7 @@
             "datasourceTemplate": "rubygems"
         },
         {
-            "customType": "regex",
-            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
+            "fileMatch": "/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/",
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
@@ -70,8 +65,7 @@
             "datasourceTemplate": "packagist"
         },
         {
-            "customType": "regex",
-            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
+            "fileMatch": "/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/",
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
@@ -80,8 +74,7 @@
             "datasourceTemplate": "{{datasource}}"
         },
         {
-            "customType": "regex",
-            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
+            "fileMatch": "/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/",
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
