@@ -11,6 +11,7 @@
     "enabledManagers": ["regex"],
     "customManagers": [
         {
+            "customType": "regex",
             "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
             "matchStringsStrategy": "combination",
             "matchStrings": [
@@ -26,6 +27,7 @@
             "currentValueTemplate": "{{#if (containsString datasource 'git-refs')}}{{else}}{{{decodeURIComponent currentValue}}}{{/if}}"
         },
         {
+            "customType": "regex",
             "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
             "matchStringsStrategy": "combination",
             "matchStrings": [
@@ -38,6 +40,7 @@
             "versioningTemplate": "semver"
         },
         {
+            "customType": "regex",
             "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
             "matchStringsStrategy": "combination",
             "matchStrings": [
@@ -47,6 +50,7 @@
             "datasourceTemplate": "go"
         },
         {
+            "customType": "regex",
             "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
             "matchStringsStrategy": "combination",
             "matchStrings": [
@@ -56,6 +60,7 @@
             "datasourceTemplate": "rubygems"
         },
         {
+            "customType": "regex",
             "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
             "matchStringsStrategy": "combination",
             "matchStrings": [
@@ -65,6 +70,7 @@
             "datasourceTemplate": "packagist"
         },
         {
+            "customType": "regex",
             "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
             "matchStringsStrategy": "combination",
             "matchStrings": [
@@ -74,6 +80,7 @@
             "datasourceTemplate": "{{datasource}}"
         },
         {
+            "customType": "regex",
             "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\\w\\-]+\\.toml$/"],
             "matchStringsStrategy": "combination",
             "matchStrings": [
