@@ -16,7 +16,7 @@
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
-                "\nid\\s+=\\s+\"pkg:github\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)"\"",
+                "\nid\\s+=\\s+\"pkg:github\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)\"",
                 "# renovate:datasource=git-refs[\\s\\S]*pkg:github\\/(?<packageName>.+)@(?<currentDigest>[^\\s\\?#]+)",
                 "# renovate:.*versioning=(?<versioning>[^,\n]+)",
                 "# renovate:.*datasource=(?<datasource>[^,\n]+)"
@@ -31,7 +31,7 @@
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
-                "\nid\\s+=\\s+\"pkg:cargo\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)"\"",
+                "\nid\\s+=\\s+\"pkg:cargo\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)\"",
                 "\\?.*repository_url=(?<githubRepo>https:\\/\\/github\\.com)\\/(?<packageName>[^\\s&]+)",
                 "# renovate:.*versioning=(?<versioning>[^,\n]+)"
             ],
@@ -79,7 +79,7 @@
             "matchStringsStrategy": "combination",
             "matchStrings": [
                 "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
-                "\nid\\s+=\\s+\"pkg:generic\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)"\"",
+                "\nid\\s+=\\s+\"pkg:generic\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)\"",
                 "# renovate:.*versioning=(?<versioning>[^,\n]+)",
                 "# renovate:.*datasource=(?<datasource>[^,\n]+)"
             ],
