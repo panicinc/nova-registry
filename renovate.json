@@ -1,0 +1,91 @@
+{
+    "automerge": true,
+    "dependencyDashboard": true,
+    "platformAutomerge": true,
+    "automergeType": "pr",
+    "commitMessage": "bump({{decodeURIComponent depName}}): update {{commitMessageExtra}}",
+    "separateMajorMinor": false,
+    "prHourlyLimit": 0,
+    "prConcurrentLimit": 0,
+    "branchConcurrentLimit": 0,
+    "rebaseWhen": "conflicted",
+    "enabledManagers": ["regex"],
+    "customManagers": [
+        {
+            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\w\-]+\\.toml$/"],
+            "matchStringsStrategy": "combination",
+            "matchStrings": [
+                "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
+                "\nid\\s+=\\s+\"pkg:github\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)"\"",
+                "# renovate:datasource=git-refs[\\s\\S]*pkg:github\\/(?<packageName>.+)@(?<currentDigest>[^\\s\\?#]+)",
+                "# renovate:.*versioning=(?<versioning>[^,\n]+)",
+                "# renovate:.*datasource=(?<datasource>[^,\n]+)"
+            ],
+            "datasourceTemplate": "{{#if datasource}}{{{datasource}}}{{else}}github-releases{{/if}}",
+            "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
+            "packageNameTemplate": "{{#if (containsString datasource 'git-refs')}}https://github.com/{{{packageName}}}{{else}}{{{packageName}}}{{/if}}",
+            "currentValueTemplate": "{{#if (containsString datasource 'git-refs')}}{{else}}{{{decodeURIComponent currentValue}}}{{/if}}"
+        },
+        {
+            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\w\-]+\\.toml$/"],
+            "matchStringsStrategy": "combination",
+            "matchStrings": [
+                "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
+                "\nid\\s+=\\s+\"pkg:cargo\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)"\"",
+                "\\?.*repository_url=(?<githubRepo>https:\\/\\/github\\.com)\\/(?<packageName>[^\\s&]+)",
+                "# renovate:.*versioning=(?<versioning>[^,\n]+)"
+            ],
+            "datasourceTemplate": "{{#if githubRepo}}github-tags{{else}}crate{{/if}}",
+            "versioningTemplate": "semver"
+        },
+        {
+            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\w\-]+\\.toml$/"],
+            "matchStringsStrategy": "combination",
+            "matchStrings": [
+                "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
+                "\nid\\s+=\\s+\"pkg:golang\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)\""
+            ],
+            "datasourceTemplate": "go"
+        },
+        {
+            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\w\-]+\\.toml$/"],
+            "matchStringsStrategy": "combination",
+            "matchStrings": [
+                "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
+                "\nid\\s+=\\s+\"pkg:gem\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)\""
+            ],
+            "datasourceTemplate": "rubygems"
+        },
+        {
+            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\w\-]+\\.toml$/"],
+            "matchStringsStrategy": "combination",
+            "matchStrings": [
+                "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
+                "\nid\\s+=\\s+\"pkg:composer\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)\""
+            ],
+            "datasourceTemplate": "packagist"
+        },
+        {
+            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\w\-]+\\.toml$/"],
+            "matchStringsStrategy": "combination",
+            "matchStrings": [
+                "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
+                "\nid\\s+=\\s+\"pkg:(?<datasource>npm|pypi|nuget)\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)\""
+            ],
+            "datasourceTemplate": "{{datasource}}"
+        },
+        {
+            "managerFilePatterns": ["/\\/Definitions\\/Packages\\/[\w\-]+\\.toml$/"],
+            "matchStringsStrategy": "combination",
+            "matchStrings": [
+                "\nid\\s+=\\s+\"(?!pkg:)(?<depName>.+)\"",
+                "\nid\\s+=\\s+\"pkg:generic\\/(?<packageName>.+)@(?<currentValue>[^\\s\\?#]+)"\"",
+                "# renovate:.*versioning=(?<versioning>[^,\n]+)",
+                "# renovate:.*datasource=(?<datasource>[^,\n]+)"
+            ],
+            "datasourceTemplate": "{{{datasource}}}",
+            "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
+            "currentValueTemplate": "{{{decodeURIComponent currentValue}}}"
+        }
+    ]
+}
