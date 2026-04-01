@@ -11,3 +11,8 @@ root_markers = [
   "Pipfile",
   "pyrightconfig.json",
 ]
+extensions_replaceable = [
+  "net.danwatson.Python",
+  "belcar.pyright",
+  "rv.pyreet",
+]

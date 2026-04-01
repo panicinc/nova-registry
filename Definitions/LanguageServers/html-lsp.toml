@@ -4,3 +4,4 @@ languages = [ "html" ]
 package = "html-lsp"
 command = [ "vscode-html-language-server", "--stdio" ]
 root_markers = [ "package.json" ]
+extensions_replaceable = [ "panic.HTMLValidator" ]

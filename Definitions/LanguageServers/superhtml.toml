@@ -4,3 +4,4 @@ languages = [ "html", "superhtml" ]
 package = "superhtml"
 command = [ "superhtml", "lsp" ]
 root_markers = []
+extensions_replaceable = [ "panic.HTMLValidator" ]

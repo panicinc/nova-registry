@@ -8,3 +8,4 @@ languages = [
 package = "css-lsp"
 command = [ "vscode-css-language-server", "--stdio" ]
 root_markers = [ "package.json" ]
+extensions_replaceable = [ "panic.CSSValidator" ]

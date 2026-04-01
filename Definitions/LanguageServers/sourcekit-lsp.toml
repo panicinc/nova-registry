@@ -16,3 +16,4 @@ root_markers = [
   "*.xcodeproj",
   "*.xcworkspace",
 ]
+extensions_replaceable = [ "panic.Icarus" ]

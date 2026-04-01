@@ -12,3 +12,7 @@ root_markers = [
   "tsconfig.json",
   "package.json",
 ]
+extensions_replaceable = [
+  "apexskier.typescript",
+  "com.johnlindop.nova-typescript",
+]

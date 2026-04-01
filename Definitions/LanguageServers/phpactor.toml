@@ -8,3 +8,4 @@ root_markers = [
   ".phpactor.json",
   ".phpactor.yml",
 ]
+extensions_replaceable = [ "emran-mr.phpactor" ]
