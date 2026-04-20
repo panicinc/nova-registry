@@ -6,4 +6,4 @@ Compiled registry contents are available via [releases](https://github.com/panic
 
 ## Attribution
 
-This project is _heavily_ inspired by the excellent work by [mason.nvim and its registry](https://github.com/mason-org/mason-registry). Any similarities to it are intended to support the common good between editor ecosystems.
+This project is _heavily_ inspired by the excellent work of [mason.nvim and its registry](https://github.com/mason-org/mason-registry). Any similarities to it are intended to foster common good between editor ecosystems.
