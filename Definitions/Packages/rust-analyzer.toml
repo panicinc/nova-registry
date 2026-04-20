@@ -7,7 +7,7 @@ categories = ["LSP"]
 
 [source]
 # renovate:versioning=loose
-id = "pkg:github/rust-lang/rust-analyzer@2026-03-30"
+id = "pkg:github/rust-lang/rust-analyzer@2026-04-20"
 
 [[source.asset]]
 target = "darwin_arm64"

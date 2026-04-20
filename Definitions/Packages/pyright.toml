@@ -6,7 +6,7 @@ licenses = ["MIT"]
 categories = ["LSP"]
 
 [source]
-id = "pkg:npm/pyright@1.1.408"
+id = "pkg:npm/pyright@1.1.409"
 
 [bin]
 pyright = "npm:pyright"
