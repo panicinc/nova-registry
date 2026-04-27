@@ -6,7 +6,7 @@ licenses = ["MIT", "Apache-2.0"]
 categories = ["Runtime"]
 
 [source]
-id = "pkg:github/astral-sh/uv@0.11.7"
+id = "pkg:github/astral-sh/uv@0.11.8"
 
 [[source.asset]]
 target = "darwin_arm64"
