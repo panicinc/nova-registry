@@ -6,7 +6,7 @@ licenses = ["MIT"]
 categories = ["LSP"]
 
 [source]
-id = "pkg:npm/yaml-language-server@1.21.0"
+id = "pkg:npm/yaml-language-server@1.23.0"
 
 [bin]
 yaml-language-server = "npm:yaml-language-server"
