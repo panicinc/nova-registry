@@ -1,0 +1,23 @@
+id = "clojure-lsp"
+name = "clojure-lsp"
+description = "Clojure & ClojureScript Language Server (LSP) implementation."
+homepage = "https://clojure-lsp.io"
+licenses = ["MIT"]
+categories = ["LSP"]
+
+[source]
+# renovate:versioning=loose
+id = "pkg:github/clojure-lsp/clojure-lsp@2026.05.05-12.58.26"
+
+[[source.asset]]
+target = "darwin_arm64"
+file = "clojure-lsp-native-macos-aarch64.zip"
+bin = "clojure-lsp"
+
+[[source.asset]]
+target = "darwin_x64"
+file = "clojure-lsp-native-macos-amd64.zip"
+bin = "clojure-lsp"
+
+[bin]
+clojure-lsp = "{{source.asset.bin}}"
