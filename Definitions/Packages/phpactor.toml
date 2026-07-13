@@ -7,7 +7,7 @@ categories = ["LSP"]
 
 [source]
 # renovate:versioning=loose
-id = "pkg:github/phpactor/phpactor@2026.05.30.1"
+id = "pkg:github/phpactor/phpactor@2026.06.25.0"
 
 [source.asset]
 file = "phpactor.phar"

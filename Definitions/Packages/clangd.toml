@@ -6,7 +6,7 @@ licenses = ["Apache-2.0"]
 categories = ["LSP"]
 
 [source]
-id = "pkg:github/clangd/clangd@22.1.0"
+id = "pkg:github/clangd/clangd@22.1.6"
 
 [[source.asset]]
 target = "darwin"
