@@ -1,0 +1,6 @@
+id = "clojure-lsp"
+name = "clojure-lsp"
+languages = [ "clojure" ]
+package = "clojure-lsp"
+command = [ "clojure-lsp" ]
+root_markers = [ "deps.edn", "project.clj", "bb.edn", "shadow-cljs.edn", ".clj-kondo" ]
