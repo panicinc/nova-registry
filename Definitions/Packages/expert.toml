@@ -1,0 +1,22 @@
+id = "expert"
+name = "Expert"
+description = "The official language server implementation for Elixir."
+homepage = "https://expert-lsp.org"
+licenses = ["Apache-2.0"]
+categories = ["LSP"]
+
+[source]
+id = "pkg:github/expert-lsp/expert@v0.1.8"
+
+[[source.asset]]
+target = "darwin_arm64"
+file = "expert_darwin_arm64"
+bin = "expert_darwin_arm64"
+
+[[source.asset]]
+target = "darwin_x64"
+file = "expert_darwin_amd64"
+bin = "expert_darwin_amd64"
+
+[bin]
+expert = "{{source.asset.bin}}"
