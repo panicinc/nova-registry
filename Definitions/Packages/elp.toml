@@ -1,6 +1,6 @@
 id = "elp"
 name = "ELP"
-description = "Erlang Language Platform provides IDE services for Erlang."
+description = "Erlang Language Platform provides IDE services for Erlang. Requires Erlang/OTP 27 or newer."
 homepage = "https://whatsapp.github.io/erlang-language-platform/"
 licenses = ["Apache-2.0"]
 categories = ["LSP"]
@@ -11,12 +11,12 @@ id = "pkg:github/WhatsApp/erlang-language-platform@2026-08-07"
 
 [[source.asset]]
 target = "darwin_arm64"
-file = "elp-macos-aarch64-apple-darwin-otp-28.5.tar.gz"
+file = "elp-macos-aarch64-apple-darwin-otp-27.3.tar.gz"
 bin = "elp"
 
 [[source.asset]]
 target = "darwin_x64"
-file = "elp-macos-x86_64-apple-darwin-otp-28.5.tar.gz"
+file = "elp-macos-x86_64-apple-darwin-otp-27.3.tar.gz"
 bin = "elp"
 
 [bin]
