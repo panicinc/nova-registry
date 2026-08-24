@@ -1,0 +1,10 @@
+id = "expert"
+name = "Expert"
+languages = [
+  "elixir",
+  "heex",
+  "eex",
+]
+package = "expert"
+command = [ "expert", "--stdio" ]
+root_markers = [ "mix.exs" ]
