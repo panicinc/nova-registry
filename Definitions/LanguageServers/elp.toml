@@ -1,0 +1,9 @@
+id = "elp"
+name = "ELP"
+languages = [ "erlang" ]
+package = "elp"
+command = [ "elp", "server" ]
+root_markers = [
+  "rebar.config",
+  "erlang.mk",
+]
